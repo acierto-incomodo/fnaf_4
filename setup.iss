@@ -1,7 +1,7 @@
 [Setup]
-AppName=Five Nights at Freddy's 1 by StormGamesStudios
+AppName=Five Nights at Freddy's 4 by StormGamesStudios
 AppVersion=1.0.3
-DefaultDirName={userappdata}\StormGamesStudios\NewGameDir\FNAF1
+DefaultDirName={userappdata}\StormGamesStudios\NewGameDir\FNAF4
 DefaultGroupName=StormGamesStudios
 OutputDir=C:\Users\mapsp\Documents\GitHub\fnaf_4\output
 OutputBaseFilename=FNAF1_Launcher_Installer
@@ -23,15 +23,15 @@ Source: "C:\Users\mapsp\Documents\GitHub\fnaf_4\fnaf_4.png"; DestDir: "{app}"; F
 
 [Icons]
 ; Acceso directo en el escritorio
-Name: "{userdesktop}\Five Nights at Freddy's 1"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\fnaf_4.ico"; Comment: "Lanzador de Five Nights at Freddy's 1"; WorkingDir: "{app}"
+Name: "{userdesktop}\Five Nights at Freddy's 4"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\fnaf_4.ico"; Comment: "Lanzador de Five Nights at Freddy's 4"; WorkingDir: "{app}"
 
 ; Acceso directo en el menú de inicio dentro de la carpeta StormGamesStudios
-Name: "{commonprograms}\StormGamesStudios\Five Nights at Freddy's 1"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\fnaf_4.ico"; Comment: "Lanzador de Five Nights at Freddy's 1"; WorkingDir: "{app}"
-Name: "{commonprograms}\StormGamesStudios\Desinstalar Five Nights at Freddy's 1"; Filename: "{uninstallexe}"; IconFilename: "{app}\fnaf_4.ico"; Comment: "Desinstalar Five Nights at Freddy's 1"
+Name: "{commonprograms}\StormGamesStudios\Five Nights at Freddy's 4"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\fnaf_4.ico"; Comment: "Lanzador de Five Nights at Freddy's 4"; WorkingDir: "{app}"
+Name: "{commonprograms}\StormGamesStudios\Desinstalar Five Nights at Freddy's 4"; Filename: "{uninstallexe}"; IconFilename: "{app}\fnaf_4.ico"; Comment: "Desinstalar Five Nights at Freddy's 4"
 
 [Registry]
 ; Guardar ruta de instalación para poder desinstalar
-Root: HKCU; Subkey: "Software\Five Nights at Freddy's 1"; ValueType: string; ValueName: "Install_Dir"; ValueData: "{app}"
+Root: HKCU; Subkey: "Software\Five Nights at Freddy's 4"; ValueType: string; ValueName: "Install_Dir"; ValueData: "{app}"
 
 [UninstallDelete]
 ; Eliminar carpeta del appdata y acceso directo
@@ -39,4 +39,4 @@ Type: filesandordirs; Name: "{app}"
 
 [Run]
 ; Ejecutar el lanzador después de la instalación
-Filename: "{app}\installer_updater.exe"; Description: "Ejecutar Five Nights at Freddy's 1"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\installer_updater.exe"; Description: "Ejecutar Five Nights at Freddy's 4"; Flags: nowait postinstall skipifsilent
