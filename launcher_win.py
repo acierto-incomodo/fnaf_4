@@ -85,7 +85,7 @@ class LauncherWindow(QtWidgets.QWidget):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Five Nights at Freddy's 1 - Launcher")
+        self.setWindowTitle("Five Nights at Freddy's 4 - Launcher")
         self.setMinimumSize(520, 420)
         self.setMaximumSize(520, 420)
         self.setWindowIcon(QtGui.QIcon.fromTheme("applications-games"))
@@ -99,7 +99,7 @@ class LauncherWindow(QtWidgets.QWidget):
     def setup_ui(self):
         layout = QtWidgets.QVBoxLayout(self)
 
-        title = QtWidgets.QLabel("Five Nights at Freddy's 1")
+        title = QtWidgets.QLabel("Five Nights at Freddy's 4")
         title.setAlignment(QtCore.Qt.AlignCenter)
         title.setStyleSheet("font-size:22px; font-weight:bold;")
         layout.addWidget(title)
