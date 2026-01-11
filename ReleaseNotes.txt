@@ -5,4 +5,4 @@ Launcher (v1.0.0):
 
 Juego (v1.0.0):
 - Pulse "Iniciar juego" para jugar al Five Nights at Freddy's 4
-- Pulse "Abrir ubicación", entre a la carpeta "game", busque "HalloweenEdition.exe" y ejecute el archivo para poder jugar al modo Halloween
+- Pulse "Abrir ubicación", entre a la carpeta "game", entre a la carpeta "Build", busque "HalloweenEdition.exe" y ejecute el archivo para poder jugar al modo Halloween
